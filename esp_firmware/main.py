@@ -13,6 +13,8 @@
 # than the servo can physically move (important for continuous tracking,
 # which publishes far more often than a simple scan-and-hold design would).
 
+import utils.transport
+import utils.session
 import time
 import network
 import machine
